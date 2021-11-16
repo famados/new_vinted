@@ -1,0 +1,83 @@
+/* Other rules */
+
+.header {
+    /* height: 100px;
+    width: 1024;
+    background-color: red;
+    border: black solid 4px;
+    margin-bottom: 200px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    height: 80px;
+    width: 1280px;
+    background-color: rgb(224, 196, 196);
+    border: black solid 3px;
+    display: flex;
+}
+
+
+
+.offer {
+    height: 360px;
+    width: 235px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 5px;
+    margin-bottom: 5px;   
+}
+
+.cont1 {
+    height: 100%;
+    width: 110px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont1 img {
+    height: 30px;
+}
+    
+
+
+
+
+.cont5 {
+    height: 100%;
+    width: 250px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.inscription {
+height: 28px;
+width: 113px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+.connexion {
+height: 28px;
+width: 113px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.logo {
+height: 25px;
+justify-content: center;
+align-items: center;
+}
