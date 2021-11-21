@@ -1,24 +1,23 @@
 /* Other rules */
 
 .header {
-    /* height: 100px;
+    height: 5px;
     width: 1024;
-    background-color: red;
-    border: black solid 4px;
-    margin-bottom: 200px; */
     display: flex;
     flex-wrap: wrap;
-    padding-top: 15px;
+   padding-left: 20px;
+    padding: auto;
+    border-bottom: grey solid 1px;
     justify-content: center;
     align-items: center;
 }
 
 .header-container {
-    height: 80px;
+    height: 50px;
     width: 1280px;
-    background-color: rgb(224, 196, 196);
-    border: black solid 3px;
     display: flex;
+    align-items: center;
+    
 }
 
 
@@ -35,7 +34,7 @@
 
 .cont1 {
     height: 100%;
-    width: 110px;
+    width: 200px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -47,16 +46,19 @@
 }
     
 
-
+.cont2 {
+    width: 500px;
+    background-color: green ;
+}
 
 
 .cont5 {
     height: 100%;
     width: 250px;
-    background-color: chartreuse;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin : 0 auto;
 
 }
 
@@ -64,6 +66,9 @@
 .inscription {
 height: 28px;
 width: 113px;
+background-color: white;
+color: green;
+border: green solid 1px;
 border-radius: 5px;
 cursor: pointer;
 }
@@ -72,9 +77,32 @@ cursor: pointer;
 .connexion {
 height: 28px;
 width: 113px;
+background-color: white;
+color: green;
+border: green solid 1px;
 border-radius: 5px;
 cursor: pointer;
+margin-left: 6px;
 }
+
+.double {
+    height: 28px;
+    width: 250px;
+    background-color: white;
+    color: green;
+    border: green solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 50px;
+    align-items: center;
+    }
+.vend {
+    /* height: 38px;
+    width: 0px; */
+    border-radius: 5px;
+    cursor: pointer;
+        }
+
 
 .logo {
 height: 25px;
